@@ -2,4 +2,6 @@
 
 A python app that recreates a magic 8 ball. 
 
-to run, type `python3 8ball.py` into your terminal
+To run, type `python3 8ball.py` into your terminal.
+
+
