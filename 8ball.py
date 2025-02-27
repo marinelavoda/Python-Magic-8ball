@@ -37,7 +37,7 @@ def ask_the_ball():
     #runs play again to check if user wants another round
     play_again(ask_again)
 
-#if the user 
+#if the user wants to play again, this function is called to ask the question again
     play_again(user_answer2)
 
 #play again is the logic for deciding how the player answered about another question
