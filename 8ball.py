@@ -37,8 +37,7 @@ def ask_the_ball():
     #runs play again to check if user wants another round
     play_again(ask_again)
 
-#if the user answers something other than yes or no, this frunction runs with a new input
-def wrong_answer(user_answer2):
+#if the user 
     play_again(user_answer2)
 
 #play again is the logic for deciding how the player answered about another question
