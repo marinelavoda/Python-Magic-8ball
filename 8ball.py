@@ -16,10 +16,10 @@ print("  '-...-'")
 #The main function of the 8ball. 
 def ask_the_ball():
     #asks the user to input a name and questions. .upper() turns the string into all caps. 
-    name = input("What is your name?")
+    name = input("What is your name? ")
     #capitalizes the name
     cap_name = name.upper()
-    question = input("What is your question?")
+    question = input("What is your question? ")
     cap_question = question.upper()
     #This uses random to create a random integer between two numbers, in this case 0 and the length of the list minus 1 to account for 0 indexing. 
     get_the_i = random.randint(0, len(answers)-1)
@@ -51,7 +51,7 @@ def play_again(user_answer):
     elif more == "NO":
         print("Thank you for playing.")
         exit()
-    #any answer toher than yes or no reminds the user to use an approved answer 
+    #any answer other than yes or no reminds the user to use an approved answer 
     else:
         wrong = input("Please type 'yes' or 'no'. ")
         wrong_answer(wrong)
