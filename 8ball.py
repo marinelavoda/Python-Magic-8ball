@@ -16,6 +16,7 @@ print("  '-...-'")
 #The main function of the 8ball. 
 def ask_the_ball():
     #asks the user to input a name and questions. .upper() turns the string into all caps. 
+    print("Hello! Welcome to Pj's Magic 8 ball")
     name = input("What is your name? ")
     #capitalizes the name
     cap_name = name.upper()
